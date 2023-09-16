@@ -11,6 +11,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import ScrollToTop from "react-scroll-to-top";
+import Home from './components/Home';
 
 
 
@@ -20,6 +21,7 @@ function App() {
       <TopNavbar />
       <MainNavbar />
       <SubNavbar />
+      <Home/>
         <ScrollToTop smooth />
     </main>
 
