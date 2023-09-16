@@ -7,6 +7,7 @@ import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import ScrollToTop from "react-scroll-to-top";
 
 function App() {
   return (
@@ -49,6 +50,9 @@ function App() {
         </Navbar.Collapse>
       </Container>
     </Navbar>
+    
+    
+    <ScrollToTop smooth />
     </div>
   );
 }
