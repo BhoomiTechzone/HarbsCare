@@ -4,7 +4,7 @@ import ListGroup from 'react-bootstrap/ListGroup';
 
 const SubNavbar = () => {
   return (
-    <Card style={{ }}>
+    <Card style={{}}>
       <ListGroup variant="flush">
         <ListGroup.Item>Vestibulum at eros</ListGroup.Item>
       </ListGroup>
