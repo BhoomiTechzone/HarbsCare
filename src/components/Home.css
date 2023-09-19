@@ -10,7 +10,13 @@
     width: 18rem;
    margin-top: 20px;
    margin-bottom: 20px;
+   text-align: center;
+   width: 100%;
     
+  }
+  .s-card img{
+    height: 300px;
+    /* width: 200px; */
   }
   .card-wrapper{
     
@@ -20,3 +26,50 @@
     margin: 20px;
     padding-top: 20px;
   }
+  .card-button{
+    background-color: rgb(59, 131, 232);
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    border: 2px solid rgb(59, 131, 232);
+    border-radius: 1px;
+  }
+  .card-button:hover{
+    background-color: white;
+    color:rgb(59, 131, 232) ;
+  }
+  .card-button-opp{
+    background-color: white;
+    color:rgb(59, 131, 232) ;
+    margin-left: 20px;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    border: 2px solid rgb(59, 131, 232);
+    border-radius: 1px;
+  }
+  .card-button-opp:hover{
+    background-color: rgb(59, 131, 232);
+    color: white;
+  }
+  
+  .green{
+    color:green
+  }
+  .ssf-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .ssf h1{
+    text-align: center;
+    /* border-bottom: 2px solid bla; */
+  }
+  .slick div h3{
+    background-color: red;
+  }
+
+
+  /* testimonial */
+  
