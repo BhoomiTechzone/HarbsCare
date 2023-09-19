@@ -8,8 +8,7 @@ const SubNavbar = () => {
       <ListGroup variant="flush">
         <ListGroup.Item>Vestibulum at eros</ListGroup.Item>
       </ListGroup>
-    </Card>
-    
+    </Card>   
   )
 }
 
