@@ -5,3 +5,19 @@
 .input-group{
     width: 40% !important; 
 }
+.navbar-nav img{
+    padding-left: 100px;
+}
+.nav-cart {
+    padding:  0px 20px;
+    display: inline-block;
+    align-items: right;
+}
+@media (min-width: 250px) and (max-width:500px) {
+	.hide{
+		display: none;
+	}
+    .input-group{
+        width: 70% !important; 
+    }
+}
