@@ -19,8 +19,10 @@ function App() {
   return (
     <main className="app">
       <TopNavbar />
-      <MainNavbar />
-      <SubNavbar />
+      <nav className='navbar-all'>
+        <MainNavbar />
+        <SubNavbar />
+      </nav>
       <Home/>
         <ScrollToTop smooth />
     </main>
