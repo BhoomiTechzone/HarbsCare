@@ -66,7 +66,7 @@ const MainNavbar = () => {
         <Navbar.Brand href="#home"><img src={logo} alt="" height="60px" /></Navbar.Brand>
         {/* <Navbar.Toggle aria-controls="responsive-navbar-nav" /> */}
         {/* <Navbar.Collapse id="responsive-navbar-nav"> */}
-        <InputGroup className="m-3">
+        <InputGroup className="mb-3 mt-3">
             <div className="svg">
 
             </div>
@@ -74,7 +74,7 @@ const MainNavbar = () => {
               placeholder="Recipient's username"
               aria-label="Recipient's username"
               aria-describedby="basic-addon2"
-              height="20px"
+              
             / >
             <Button variant="success" id="button-addon2">
               <SearchIcon />
