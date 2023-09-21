@@ -18,8 +18,8 @@ import Home from './components/Home';
 function App() {
   return (
     <main className="app">
-      <TopNavbar />
       <nav className='navbar-all'>
+        <TopNavbar />
         <MainNavbar />
         <SubNavbar />
       </nav>
