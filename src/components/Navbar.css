@@ -52,6 +52,7 @@
 .subnavbar{
     display: flex;
     justify-content: center;
+    /* justify-content: center; */
     background-color: #fff;
     border-top: 1px solid #ededed;
     box-shadow: 5px 10px 18px #888888;
