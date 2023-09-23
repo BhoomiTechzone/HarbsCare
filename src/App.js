@@ -5,12 +5,10 @@ import SubNavbar from './components/SubNavbar';
 import TopNavbar from './components/TopNavbar';
 import ScrollToTop from "react-scroll-to-top";
 import Home from './components/Home';
-
+import { Routes, Route } from 'react-router-dom';
 import About from './Page/About';
-
 import Footer from './components/Footer';
-
-
+import Contact from './Page/Contact';
 
 
 function App() {
@@ -21,13 +19,16 @@ function App() {
         <MainNavbar />
         <SubNavbar />
       </nav>
-      <Home/>
-     
-        <ScrollToTop smooth />
-        <Footer />
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/about' element={<About />} />
+        <Route path='/contact' element={<Contact />} />
+      </Routes>
+      <ScrollToTop smooth />
+      <Footer />
     </main>
 
-    
+
 
   );
 }

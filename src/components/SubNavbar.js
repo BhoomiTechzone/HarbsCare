@@ -10,7 +10,9 @@ import CardContent from '@mui/material/CardContent';
 // import Button from '@mui/material/Button';
 // import Typography from '@mui/material/Typography';
 import "./Navbar.css";
+import { Link } from 'react-router-dom';
 // import { red } from '@mui/material/colors';
+
 
 
 const HtmlTooltip = styled(({ className, ...props }) => (
@@ -27,7 +29,9 @@ const SubNavbar = () => {
   return (
     <nav className='subnavbar'>
       <HtmlTooltip>
-        <Button sx={{color:'#58A321', marginRight:'10px'}} >HOME</Button>
+        <Link to='/'>
+          <Button sx={{color:'#58A321', marginRight:'10px'}} >HOME</Button>
+        </Link>
       </HtmlTooltip>
 
       <HtmlTooltip
@@ -203,7 +207,9 @@ const SubNavbar = () => {
       </HtmlTooltip>
 
       <HtmlTooltip>
-        <Button sx={{color:'#58A321', marginRight:'10px'}} >ABOUT</Button>
+        <Link to='/about'>
+          <Button sx={{color:'#58A321', marginRight:'10px'}} >ABOUT</Button>
+        </Link>
       </HtmlTooltip>
 
       <HtmlTooltip
@@ -250,7 +256,9 @@ const SubNavbar = () => {
       </HtmlTooltip>
 
       <HtmlTooltip>
-        <Button sx={{color:'#58A321', marginRight:'10px'}} >CONTACT</Button>
+        <Link to='/contact'>
+          <Button sx={{color:'#58A321', marginRight:'10px'}} >CONTACT</Button>
+        </Link>
       </HtmlTooltip>
 
     </nav>
