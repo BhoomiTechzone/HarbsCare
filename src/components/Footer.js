@@ -1,101 +1,74 @@
-import * as React from 'react';
-import { styled } from '@mui/material/styles';
-import ArrowForwardIosSharpIcon from '@mui/icons-material/ArrowForwardIosSharp';
-import MuiAccordion from '@mui/material/Accordion';
-import MuiAccordionSummary from '@mui/material/AccordionSummary';
-import MuiAccordionDetails from '@mui/material/AccordionDetails';
-import Typography from '@mui/material/Typography';
-
-
-const Accordion = styled((props) => (
-  <MuiAccordion disableGutters elevation={0} square {...props} />
-))(({ theme }) => ({
-  border: `1px solid ${theme.palette.divider}`,
-  '&:not(:last-child)': {
-    borderBottom: 0,
-  },
-  '&:before': {
-    display: 'none',
-  },
-}));
-
-const AccordionSummary = styled((props) => (
-  <MuiAccordionSummary
-    expandIcon={<ArrowForwardIosSharpIcon sx={{ fontSize: '0.9rem' }} />}
-    {...props}
-  />
-))(({ theme }) => ({
-  backgroundColor:
-    theme.palette.mode === 'dark'
-      ? 'rgba(255, 255, 255, .05)'
-      : 'rgba(0, 0, 0, .03)',
-  flexDirection: 'row-reverse',
-  '& .MuiAccordionSummary-expandIconWrapper.Mui-expanded': {
-    transform: 'rotate(90deg)',
-  },
-  '& .MuiAccordionSummary-content': {
-    marginLeft: theme.spacing(1),
-  },
-}));
-
-const AccordionDetails = styled(MuiAccordionDetails)(({ theme }) => ({
-  padding: theme.spacing(2),
-  borderTop: '1px solid rgba(0, 0, 0, .125)',
-}));
+import Box from '@mui/material/Box';
+import Stack from '@mui/material/Stack';
+import FavoriteIcon from '@mui/icons-material/Favorite';
+import FacebookIcon from '@mui/icons-material/Facebook';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import YouTubeIcon from '@mui/icons-material/YouTube';
+import TwitterIcon from '@mui/icons-material/Twitter';
 
 
 const Footer = () => {
 
-  const [expanded, setExpanded] = React.useState('panel1');
-
-  const handleChange = (panel) => (event, newExpanded) => {
-    setExpanded(newExpanded ? panel : false);
-  };
-
   return (
-    <div>
-      <Accordion expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
-        <AccordionSummary aria-controls="panel1d-content" id="panel1d-header">
-          <Typography>Collapsible Group Item #1</Typography>
-        </AccordionSummary>
-        <AccordionDetails>
-          <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor
-            sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
-            sit amet blandit leo lobortis eget.
-          </Typography>
-        </AccordionDetails>
-      </Accordion>
-      <Accordion expanded={expanded === 'panel2'} onChange={handleChange('panel2')}>
-        <AccordionSummary aria-controls="panel2d-content" id="panel2d-header">
-          <Typography>Collapsible Group Item #2</Typography>
-        </AccordionSummary>
-        <AccordionDetails>
-          <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor
-            sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
-            sit amet blandit leo lobortis eget.
-          </Typography>
-        </AccordionDetails>
-      </Accordion>
-      <Accordion expanded={expanded === 'panel3'} onChange={handleChange('panel3')}>
-        <AccordionSummary aria-controls="panel3d-content" id="panel3d-header">
-          <Typography>Collapsible Group Item #3</Typography>
-        </AccordionSummary>
-        <AccordionDetails>
-          <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor
-            sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
-            sit amet blandit leo lobortis eget.
-          </Typography>
-        </AccordionDetails>
-      </Accordion>
-    </div>
+    <Box sx={{}}>
+      <Box sx={{ display: 'flex', justifyContent:'space-around', m:'4rem 4rem 0', p:'2rem', border:'1px solid #ededed'}}>
+        <Stack>
+          <Box sx={{fontSize: '24px'}}>USEFULL LINKS</Box>
+          <Box>Privacy Policy</Box>
+          <Box>Returns</Box>
+          <Box>Terms & Conditions</Box>
+          <Box>Terms & Conditions-Cashback</Box>
+          <Box>FAQs</Box>
+          <Box>We're Safe</Box>
+          <Box>Track Order</Box>
+          <Box>Contact Us</Box>
+          <Box>Sitemap</Box>
+          <Box>About Us</Box>
+        </Stack>
+        <Stack>
+          <Box sx={{fontSize: '24px'}} >CATEGORIES</Box>
+          <Box>Body</Box>
+          <Box>Beauty</Box>
+          <Box>Hair</Box>
+          <Box>Face</Box>
+          <Box>Body</Box>
+          <Box>Makeup</Box>
+          <Box>Ingredient</Box>
+          <Box>Gift Pack</Box>
+        </Stack>
+        <Stack>
+          <Box sx={{fontSize: '24px'}} >MY ACCOUNT</Box>
+          <Box>Account</Box>
+          <Box>Order</Box>
+          <Box>Addresses</Box>
+        </Stack>
+      </Box>
+
+
+      <Box sx={{ display: 'flex', justifyContent:'center',  m:'0rem 4rem 0', p:'2rem', border:'1px solid #ededed'}}>
+        <Stack>
+          <Box sx={{fontSize: '20px'}}>SHOW US SOME {<FavoriteIcon sx={{color:'#FF0000', fontSize:'32px'}} />} ON SOCIAL MEDIA</Box>
+          <Box sx={{display: 'flex', justifyContent: 'space-evenly', mt: '1rem'}}>
+            <FacebookIcon fontSize='large' sx={{color:"#58A321"}} />
+            <InstagramIcon fontSize='large' sx={{color:"#58A321"}} />
+            <LinkedInIcon fontSize='large' sx={{color:"#58A321"}} />
+            <YouTubeIcon fontSize='large' sx={{color:"#58A321"}} />
+            <TwitterIcon fontSize='large' sx={{color:"#58A321"}} />
+          </Box>
+        </Stack>
+      </Box>
+
+      <Box sx={{ display: 'flex', justifyContent:'center',  m:'0rem 4rem 0', p:'2rem', border:'1px solid #ededed'}}>
+        <Stack>
+          <Box sx={{fontSize: '16px'}}>© 2023 Harbs Care Limited. All Rights Reserved</Box>
+        </Stack>
+      </Box>
+      
+    </Box>
   )
 }
 
 export default Footer;
+
 
