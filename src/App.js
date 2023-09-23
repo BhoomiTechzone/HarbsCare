@@ -5,7 +5,11 @@ import SubNavbar from './components/SubNavbar';
 import TopNavbar from './components/TopNavbar';
 import ScrollToTop from "react-scroll-to-top";
 import Home from './components/Home';
+
+import About from './Page/About';
+
 import Footer from './components/Footer';
+
 
 
 
@@ -18,6 +22,7 @@ function App() {
         <SubNavbar />
       </nav>
       <Home/>
+     
         <ScrollToTop smooth />
         <Footer />
     </main>
