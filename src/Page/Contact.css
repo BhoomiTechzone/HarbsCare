@@ -1,0 +1,11 @@
+.contact-side h1{
+    font-size: 50px !important;
+    color: rgb(180, 175, 175);
+}
+.contact-side h3{
+    /* font-size: 50px !important; */
+    color: rgb(6, 86, 33);
+}
+.contact-side{
+    text-align: center;
+}
