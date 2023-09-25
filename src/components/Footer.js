@@ -6,15 +6,16 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import YouTubeIcon from '@mui/icons-material/YouTube';
 import TwitterIcon from '@mui/icons-material/Twitter';
+import Description from './Description';
 
 
 const Footer = () => {
 
   return (
-    <Box sx={{}}>
-      <Box sx={{ display: 'flex', justifyContent:'space-around', m:'4rem 4rem 0', p:'2rem', border:'1px solid #ededed'}}>
-        <Stack>
-          <Box sx={{fontSize: '24px'}}>USEFULL LINKS</Box>
+    <Box sx={{m: '2rem 0px'}}>
+      <Box sx={{ display: 'flex', justifyContent:'space-around', border:'1px solid #ededed'}}>
+        <Stack sx={{p:'1rem'}}>
+          <Box sx={{fontSize: '18px', fontWeight:'bold'}}>USEFULL LINKS</Box>
           <Box>Privacy Policy</Box>
           <Box>Returns</Box>
           <Box>Terms & Conditions</Box>
@@ -26,8 +27,8 @@ const Footer = () => {
           <Box>Sitemap</Box>
           <Box>About Us</Box>
         </Stack>
-        <Stack>
-          <Box sx={{fontSize: '24px'}} >CATEGORIES</Box>
+        <Stack sx={{p:'1rem'}}>
+          <Box sx={{fontSize: '18px', fontWeight:'bold'}} >CATEGORIES</Box>
           <Box>Body</Box>
           <Box>Beauty</Box>
           <Box>Hair</Box>
@@ -37,8 +38,8 @@ const Footer = () => {
           <Box>Ingredient</Box>
           <Box>Gift Pack</Box>
         </Stack>
-        <Stack>
-          <Box sx={{fontSize: '24px'}} >MY ACCOUNT</Box>
+        <Stack sx={{p:'1rem'}}>
+          <Box sx={{fontSize: '18px', fontWeight:'bold'}}>MY ACCOUNT</Box>
           <Box>Account</Box>
           <Box>Order</Box>
           <Box>Addresses</Box>
@@ -46,7 +47,7 @@ const Footer = () => {
       </Box>
 
 
-      <Box sx={{ display: 'flex', justifyContent:'center',  m:'0rem 4rem 0', p:'2rem', border:'1px solid #ededed'}}>
+      <Box sx={{ display: 'flex', justifyContent:'center', p:'2rem', border:'1px solid #ededed'}}>
         <Stack>
           <Box sx={{fontSize: '20px'}}>SHOW US SOME {<FavoriteIcon sx={{color:'#FF0000', fontSize:'32px'}} />} ON SOCIAL MEDIA</Box>
           <Box sx={{display: 'flex', justifyContent: 'space-evenly', mt: '1rem'}}>
@@ -59,12 +60,12 @@ const Footer = () => {
         </Stack>
       </Box>
 
-      <Box sx={{ display: 'flex', justifyContent:'center',  m:'0rem 4rem 0', p:'2rem', border:'1px solid #ededed'}}>
+      <Box sx={{ display: 'flex', justifyContent:'center', p:'2rem', border:'1px solid #ededed'}}>
         <Stack>
           <Box sx={{fontSize: '16px'}}>© 2023 Harbs Care Limited. All Rights Reserved</Box>
         </Stack>
       </Box>
-      
+      <Description />
     </Box>
   )
 }
