@@ -1,12 +1,13 @@
 import React from 'react';
-
+import { Typography } from '@mui/material';
+import PersonOutlineOutlinedIcon from '@mui/icons-material/PersonOutlineOutlined';
 
 const TopNavbar = () => {
   return (
-    <div style={{backgroundColor: "red", display:"flex", justifyContent:"space-between", alignItems:"center", padding:"0px 2rem"}}>
-      <p style={{marginBottom:"0px", fontSize:"10px", fontWeight:"bold"}}>India' 1st Brand with MADE SAFE Certified Products</p>
-      <p style={{marginBottom:"0px", fontSize:"10px", fontWeight:"bold"}}>OMG Sale is Live | Buy 1 Get 1 FREE | Coupon:OMG | Click To Shop</p>
-      <p style={{marginBottom:"0px", fontSize:"10px", fontWeight:"bold"}}>ff</p>
+    <div style={{backgroundColor: "red", display:"flex", justifyContent:"space-between", alignItems:"center", padding:"5px 2rem"}}>
+      <Typography sx={{color: "#fff", fontSize: "14px"}}>India' 1st Brand with MADE SAFE Certified Products</Typography>
+      <Typography sx={{color: "#fff", fontSize: "14px"}}>OMG Sale is Live | Buy 1 Get 1 FREE | Coupon:OMG | Click To Shop</Typography>
+      <Typography sx={{color: "#fff", fontSize: "14px"}}><PersonOutlineOutlinedIcon /></Typography>
     </div>
   )
 }
