@@ -69,6 +69,12 @@
   .slick div h3{
     background-color: red;
   }
+  @media (min-width: 250px) and (max-width:500px) {
+  .carousel-item img{
+    height: auto;
+    width: 100%;
+  }
+}
 
 
   /* testimonial */

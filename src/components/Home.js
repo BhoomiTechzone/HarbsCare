@@ -62,21 +62,21 @@ export default function Home() {
         <div>
             <Carousel activeIndex={index} onSelect={handleSelect}>
                 <Carousel.Item>
-                    <img src={simg} text="First slide" height="400px" />
+                    <img src={simg} text="First slide" height="400px" width="100%"/>
                     <Carousel.Caption>
                         {/* <h3>First slide label</h3>
           <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
-                    <img src={simg} text="Second slide" height="400px" />
+                    <img src={simg} text="Second slide" height="400px" width="100%"/>
                     <Carousel.Caption>
                         {/* <h3>Second slide label</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> */}
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
-                    <img src={simg} text="Third slide" height="400px" />
+                    <img src={simg} text="Third slide" height="400px" width="100%"/>
                     <Carousel.Caption>
                         {/* <h3>Third slide label</h3>
           <p>
@@ -98,14 +98,14 @@ export default function Home() {
                 </div>
                 <div className="col-lg-9 ">
 
-                    {/* <div id="carouselExampleControls" class="carousel carousel-dark slide" data-bs-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <div class="card-wrapper container-sm d-flex  justify-content-around">
-                                <div class="card s-card "   >
-                                    <img src="https://source.unsplash.com/collection/190727/1600x900" class="card-img-top" alt="..." />
-                                    <div class="card-body">
-                                        <h5 class="card-title">Heading</h5>
+                    {/* <div id="carouselExampleControls" className="carousel carousel-dark slide" data-bs-ride="carousel">
+                    <div className="carousel-inner">
+                        <div className="carousel-item active">
+                            <div className="card-wrapper container-sm d-flex  justify-content-around">
+                                <div className="card s-card "   >
+                                    <img src="https://source.unsplash.com/collection/190727/1600x900" className="card-img-top" alt="..." />
+                                    <div className="card-body">
+                                        <h5 className="card-title">Heading</h5>
                                         <p className="green">abc | Def</p>
                                         <h4>Rs. ####</h4>
 
@@ -113,78 +113,78 @@ export default function Home() {
                                     </div>
                                     <a className='card-button'>ADD TO CART</a>
                                 </div>
-                                <div class="card s-card "   >
-                                    <img src="https://source.unsplash.com/collection/190727/1600x900" class="card-img-top" alt="..." />
-                                    <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
+                                <div className="card s-card "   >
+                                    <img src="https://source.unsplash.com/collection/190727/1600x900" className="card-img-top" alt="..." />
+                                    <div className="card-body">
+                                        <h5 className="card-title">Card title</h5>
 
                                     </div>
                                 </div>
-                                <div class="card s-card "   >
-                                    <img src="https://source.unsplash.com/collection/190727/1600x900" class="card-img-top" alt="..." />
-                                    <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="card-wrapper container-sm d-flex   justify-content-around">
-                                <div class="card s-card  "   >
-                                    <img src="https://source.unsplash.com/collection/190727/1600x900" class="card-img-top" alt="..." />
-                                    <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-
-                                    </div>
-                                </div><div class="card s-card"   >
-                                    <img src="https://source.unsplash.com/collection/190727/1600x900" class="card-img-top" alt="..." />
-                                    <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-
-                                    </div>
-                                </div>
-                                <div class="card s-card"   >
-                                    <img src="https://source.unsplash.com/collection/190727/1600x900" class="card-img-top" alt="..." />
-                                    <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
+                                <div className="card s-card "   >
+                                    <img src="https://source.unsplash.com/collection/190727/1600x900" className="card-img-top" alt="..." />
+                                    <div className="card-body">
+                                        <h5 className="card-title">Card title</h5>
 
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="carousel-item">
-                            <div class="card-wrapper container-sm d-flex  justify-content-around">
-                                <div class="card s-card "   >
-                                    <img src="https://source.unsplash.com/collection/190727/1600x900" class="card-img-top" alt="..." />
-                                    <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
+                        <div className="carousel-item">
+                            <div className="card-wrapper container-sm d-flex   justify-content-around">
+                                <div className="card s-card  "   >
+                                    <img src="https://source.unsplash.com/collection/190727/1600x900" className="card-img-top" alt="..." />
+                                    <div className="card-body">
+                                        <h5 className="card-title">Card title</h5>
+
+                                    </div>
+                                </div><div className="card s-card"   >
+                                    <img src="https://source.unsplash.com/collection/190727/1600x900" className="card-img-top" alt="..." />
+                                    <div className="card-body">
+                                        <h5 className="card-title">Card title</h5>
 
                                     </div>
                                 </div>
-                                <div class="card s-card"   >
-                                    <img src="https://source.unsplash.com/collection/190727/1600x900" class="card-img-top" alt="..." />
-                                    <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-
-                                    </div>
-                                </div>
-                                <div class="card s-card"   >
-                                    <img src="https://source.unsplash.com/collection/190727/1600x900" class="card-img-top" alt="..." />
-                                    <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
+                                <div className="card s-card"   >
+                                    <img src="https://source.unsplash.com/collection/190727/1600x900" className="card-img-top" alt="..." />
+                                    <div className="card-body">
+                                        <h5 className="card-title">Card title</h5>
 
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
+                        <div className="carousel-item">
+                            <div className="card-wrapper container-sm d-flex  justify-content-around">
+                                <div className="card s-card "   >
+                                    <img src="https://source.unsplash.com/collection/190727/1600x900" className="card-img-top" alt="..." />
+                                    <div className="card-body">
+                                        <h5 className="card-title">Card title</h5>
+
+                                    </div>
+                                </div>
+                                <div className="card s-card"   >
+                                    <img src="https://source.unsplash.com/collection/190727/1600x900" className="card-img-top" alt="..." />
+                                    <div className="card-body">
+                                        <h5 className="card-title">Card title</h5>
+
+                                    </div>
+                                </div>
+                                <div className="card s-card"   >
+                                    <img src="https://source.unsplash.com/collection/190727/1600x900" className="card-img-top" alt="..." />
+                                    <div className="card-body">
+                                        <h5 className="card-title">Card title</h5>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                            <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span className="visually-hidden">Previous</span>
                         </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
+                        <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                            <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span className="visually-hidden">Next</span>
                         </button>
                     </div>
                 </div> */}
@@ -209,10 +209,10 @@ export default function Home() {
                         }
 
                     >
-                        <div > <div class="card s-card "   >
-                            <img src="https://source.unsplash.com/collection/190727/1600x900" class="card-img-top" alt="..." />
-                            <div class="card-body">
-                                <h5 class="card-title">Heading</h5>
+                        <div > <div className="card s-card "   >
+                            <img src="https://source.unsplash.com/collection/190727/1600x900" className="card-img-top" alt="..." />
+                            <div className="card-body">
+                                <h5 className="card-title">Heading</h5>
                                 <p className="green">abc | Def</p>
                                 <h4>Rs. ####</h4>
 
@@ -220,10 +220,10 @@ export default function Home() {
                             </div>
                             <a className='card-button'>ADD TO CART</a>
                         </div></div>
-                        <div > <div class="card s-card "   >
-                            <img src="https://source.unsplash.com/collection/190727/1600x900" class="card-img-top" alt="..." />
-                            <div class="card-body">
-                                <h5 class="card-title">Heading</h5>
+                        <div > <div className="card s-card "   >
+                            <img src="https://source.unsplash.com/collection/190727/1600x900" className="card-img-top" alt="..." />
+                            <div className="card-body">
+                                <h5 className="card-title">Heading</h5>
                                 <p className="green">abc | Def</p>
                                 <h4>Rs. ####</h4>
 
@@ -231,10 +231,10 @@ export default function Home() {
                             </div>
                             <a className='card-button'>ADD TO CART</a>
                         </div></div>
-                        <div > <div class="card s-card "   >
-                            <img src="https://source.unsplash.com/collection/190727/1600x900" class="card-img-top" alt="..." />
-                            <div class="card-body">
-                                <h5 class="card-title">Heading</h5>
+                        <div > <div className="card s-card "   >
+                            <img src="https://source.unsplash.com/collection/190727/1600x900" className="card-img-top" alt="..." />
+                            <div className="card-body">
+                                <h5 className="card-title">Heading</h5>
                                 <p className="green">abc | Def</p>
                                 <h4>Rs. ####</h4>
 
@@ -242,10 +242,10 @@ export default function Home() {
                             </div>
                             <a className='card-button'>ADD TO CART</a>
                         </div></div>
-                        <div > <div class="card s-card "   >
-                            <img src="https://source.unsplash.com/collection/190727/1600x900" class="card-img-top" alt="..." />
-                            <div class="card-body">
-                                <h5 class="card-title">Heading</h5>
+                        <div > <div className="card s-card "   >
+                            <img src="https://source.unsplash.com/collection/190727/1600x900" className="card-img-top" alt="..." />
+                            <div className="card-body">
+                                <h5 className="card-title">Heading</h5>
                                 <p className="green">abc | Def</p>
                                 <h4>Rs. ####</h4>
 
@@ -268,14 +268,14 @@ export default function Home() {
                 </div>
                 <div className="col-lg-9 ">
 
-                    {/* <div id="carouselExampleControls" class="carousel carousel-dark slide" data-bs-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <div class="card-wrapper container-sm d-flex  justify-content-around">
-                                <div class="card s-card "   >
-                                    <img src="https://source.unsplash.com/collection/190727/1600x900" class="card-img-top" alt="..." />
-                                    <div class="card-body">
-                                        <h5 class="card-title">Heading</h5>
+                    {/* <div id="carouselExampleControls" className="carousel carousel-dark slide" data-bs-ride="carousel">
+                    <div className="carousel-inner">
+                        <div className="carousel-item active">
+                            <div className="card-wrapper container-sm d-flex  justify-content-around">
+                                <div className="card s-card "   >
+                                    <img src="https://source.unsplash.com/collection/190727/1600x900" className="card-img-top" alt="..." />
+                                    <div className="card-body">
+                                        <h5 className="card-title">Heading</h5>
                                         <p className="green">abc | Def</p>
                                         <h4>Rs. ####</h4>
 
@@ -283,78 +283,78 @@ export default function Home() {
                                     </div>
                                     <a className='card-button'>ADD TO CART</a>
                                 </div>
-                                <div class="card s-card "   >
-                                    <img src="https://source.unsplash.com/collection/190727/1600x900" class="card-img-top" alt="..." />
-                                    <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
+                                <div className="card s-card "   >
+                                    <img src="https://source.unsplash.com/collection/190727/1600x900" className="card-img-top" alt="..." />
+                                    <div className="card-body">
+                                        <h5 className="card-title">Card title</h5>
 
                                     </div>
                                 </div>
-                                <div class="card s-card "   >
-                                    <img src="https://source.unsplash.com/collection/190727/1600x900" class="card-img-top" alt="..." />
-                                    <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="card-wrapper container-sm d-flex   justify-content-around">
-                                <div class="card s-card  "   >
-                                    <img src="https://source.unsplash.com/collection/190727/1600x900" class="card-img-top" alt="..." />
-                                    <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-
-                                    </div>
-                                </div><div class="card s-card"   >
-                                    <img src="https://source.unsplash.com/collection/190727/1600x900" class="card-img-top" alt="..." />
-                                    <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-
-                                    </div>
-                                </div>
-                                <div class="card s-card"   >
-                                    <img src="https://source.unsplash.com/collection/190727/1600x900" class="card-img-top" alt="..." />
-                                    <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
+                                <div className="card s-card "   >
+                                    <img src="https://source.unsplash.com/collection/190727/1600x900" className="card-img-top" alt="..." />
+                                    <div className="card-body">
+                                        <h5 className="card-title">Card title</h5>
 
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="carousel-item">
-                            <div class="card-wrapper container-sm d-flex  justify-content-around">
-                                <div class="card s-card "   >
-                                    <img src="https://source.unsplash.com/collection/190727/1600x900" class="card-img-top" alt="..." />
-                                    <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
+                        <div className="carousel-item">
+                            <div className="card-wrapper container-sm d-flex   justify-content-around">
+                                <div className="card s-card  "   >
+                                    <img src="https://source.unsplash.com/collection/190727/1600x900" className="card-img-top" alt="..." />
+                                    <div className="card-body">
+                                        <h5 className="card-title">Card title</h5>
+
+                                    </div>
+                                </div><div className="card s-card"   >
+                                    <img src="https://source.unsplash.com/collection/190727/1600x900" className="card-img-top" alt="..." />
+                                    <div className="card-body">
+                                        <h5 className="card-title">Card title</h5>
 
                                     </div>
                                 </div>
-                                <div class="card s-card"   >
-                                    <img src="https://source.unsplash.com/collection/190727/1600x900" class="card-img-top" alt="..." />
-                                    <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-
-                                    </div>
-                                </div>
-                                <div class="card s-card"   >
-                                    <img src="https://source.unsplash.com/collection/190727/1600x900" class="card-img-top" alt="..." />
-                                    <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
+                                <div className="card s-card"   >
+                                    <img src="https://source.unsplash.com/collection/190727/1600x900" className="card-img-top" alt="..." />
+                                    <div className="card-body">
+                                        <h5 className="card-title">Card title</h5>
 
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
+                        <div className="carousel-item">
+                            <div className="card-wrapper container-sm d-flex  justify-content-around">
+                                <div className="card s-card "   >
+                                    <img src="https://source.unsplash.com/collection/190727/1600x900" className="card-img-top" alt="..." />
+                                    <div className="card-body">
+                                        <h5 className="card-title">Card title</h5>
+
+                                    </div>
+                                </div>
+                                <div className="card s-card"   >
+                                    <img src="https://source.unsplash.com/collection/190727/1600x900" className="card-img-top" alt="..." />
+                                    <div className="card-body">
+                                        <h5 className="card-title">Card title</h5>
+
+                                    </div>
+                                </div>
+                                <div className="card s-card"   >
+                                    <img src="https://source.unsplash.com/collection/190727/1600x900" className="card-img-top" alt="..." />
+                                    <div className="card-body">
+                                        <h5 className="card-title">Card title</h5>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                            <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span className="visually-hidden">Previous</span>
                         </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
+                        <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                            <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span className="visually-hidden">Next</span>
                         </button>
                     </div>
                 </div> */}
@@ -379,10 +379,10 @@ export default function Home() {
                         }
 
                     >
-                        <div > <div class="card s-card "   >
-                            <img src="https://source.unsplash.com/collection/190727/1600x900" class="card-img-top" alt="..." />
-                            <div class="card-body">
-                                <h5 class="card-title">Heading</h5>
+                        <div > <div className="card s-card "   >
+                            <img src="https://source.unsplash.com/collection/190727/1600x900" className="card-img-top" alt="..." />
+                            <div className="card-body">
+                                <h5 className="card-title">Heading</h5>
                                 <p className="green">abc | Def</p>
                                 <h4>Rs. ####</h4>
 
@@ -390,10 +390,10 @@ export default function Home() {
                             </div>
                             <a className='card-button'>ADD TO CART</a>
                         </div></div>
-                        <div > <div class="card s-card "   >
-                            <img src="https://source.unsplash.com/collection/190727/1600x900" class="card-img-top" alt="..." />
-                            <div class="card-body">
-                                <h5 class="card-title">Heading</h5>
+                        <div > <div className="card s-card "   >
+                            <img src="https://source.unsplash.com/collection/190727/1600x900" className="card-img-top" alt="..." />
+                            <div className="card-body">
+                                <h5 className="card-title">Heading</h5>
                                 <p className="green">abc | Def</p>
                                 <h4>Rs. ####</h4>
 
@@ -401,10 +401,10 @@ export default function Home() {
                             </div>
                             <a className='card-button'>ADD TO CART</a>
                         </div></div>
-                        <div > <div class="card s-card "   >
-                            <img src="https://source.unsplash.com/collection/190727/1600x900" class="card-img-top" alt="..." />
-                            <div class="card-body">
-                                <h5 class="card-title">Heading</h5>
+                        <div > <div className="card s-card "   >
+                            <img src="https://source.unsplash.com/collection/190727/1600x900" className="card-img-top" alt="..." />
+                            <div className="card-body">
+                                <h5 className="card-title">Heading</h5>
                                 <p className="green">abc | Def</p>
                                 <h4>Rs. ####</h4>
 
@@ -412,10 +412,10 @@ export default function Home() {
                             </div>
                             <a className='card-button'>ADD TO CART</a>
                         </div></div>
-                        <div > <div class="card s-card "   >
-                            <img src="https://source.unsplash.com/collection/190727/1600x900" class="card-img-top" alt="..." />
-                            <div class="card-body">
-                                <h5 class="card-title">Heading</h5>
+                        <div > <div className="card s-card "   >
+                            <img src="https://source.unsplash.com/collection/190727/1600x900" className="card-img-top" alt="..." />
+                            <div className="card-body">
+                                <h5 className="card-title">Heading</h5>
                                 <p className="green">abc | Def</p>
                                 <h4>Rs. ####</h4>
 
@@ -438,14 +438,14 @@ export default function Home() {
                 </div>
                 <div className="col-lg-9 ">
 
-                    {/* <div id="carouselExampleControls" class="carousel carousel-dark slide" data-bs-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <div class="card-wrapper container-sm d-flex  justify-content-around">
-                                <div class="card s-card "   >
-                                    <img src="https://source.unsplash.com/collection/190727/1600x900" class="card-img-top" alt="..." />
-                                    <div class="card-body">
-                                        <h5 class="card-title">Heading</h5>
+                    {/* <div id="carouselExampleControls" className="carousel carousel-dark slide" data-bs-ride="carousel">
+                    <div className="carousel-inner">
+                        <div className="carousel-item active">
+                            <div className="card-wrapper container-sm d-flex  justify-content-around">
+                                <div className="card s-card "   >
+                                    <img src="https://source.unsplash.com/collection/190727/1600x900" className="card-img-top" alt="..." />
+                                    <div className="card-body">
+                                        <h5 className="card-title">Heading</h5>
                                         <p className="green">abc | Def</p>
                                         <h4>Rs. ####</h4>
 
@@ -453,78 +453,78 @@ export default function Home() {
                                     </div>
                                     <a className='card-button'>ADD TO CART</a>
                                 </div>
-                                <div class="card s-card "   >
-                                    <img src="https://source.unsplash.com/collection/190727/1600x900" class="card-img-top" alt="..." />
-                                    <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
+                                <div className="card s-card "   >
+                                    <img src="https://source.unsplash.com/collection/190727/1600x900" className="card-img-top" alt="..." />
+                                    <div className="card-body">
+                                        <h5 className="card-title">Card title</h5>
 
                                     </div>
                                 </div>
-                                <div class="card s-card "   >
-                                    <img src="https://source.unsplash.com/collection/190727/1600x900" class="card-img-top" alt="..." />
-                                    <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="card-wrapper container-sm d-flex   justify-content-around">
-                                <div class="card s-card  "   >
-                                    <img src="https://source.unsplash.com/collection/190727/1600x900" class="card-img-top" alt="..." />
-                                    <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-
-                                    </div>
-                                </div><div class="card s-card"   >
-                                    <img src="https://source.unsplash.com/collection/190727/1600x900" class="card-img-top" alt="..." />
-                                    <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-
-                                    </div>
-                                </div>
-                                <div class="card s-card"   >
-                                    <img src="https://source.unsplash.com/collection/190727/1600x900" class="card-img-top" alt="..." />
-                                    <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
+                                <div className="card s-card "   >
+                                    <img src="https://source.unsplash.com/collection/190727/1600x900" className="card-img-top" alt="..." />
+                                    <div className="card-body">
+                                        <h5 className="card-title">Card title</h5>
 
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="carousel-item">
-                            <div class="card-wrapper container-sm d-flex  justify-content-around">
-                                <div class="card s-card "   >
-                                    <img src="https://source.unsplash.com/collection/190727/1600x900" class="card-img-top" alt="..." />
-                                    <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
+                        <div className="carousel-item">
+                            <div className="card-wrapper container-sm d-flex   justify-content-around">
+                                <div className="card s-card  "   >
+                                    <img src="https://source.unsplash.com/collection/190727/1600x900" className="card-img-top" alt="..." />
+                                    <div className="card-body">
+                                        <h5 className="card-title">Card title</h5>
+
+                                    </div>
+                                </div><div className="card s-card"   >
+                                    <img src="https://source.unsplash.com/collection/190727/1600x900" className="card-img-top" alt="..." />
+                                    <div className="card-body">
+                                        <h5 className="card-title">Card title</h5>
 
                                     </div>
                                 </div>
-                                <div class="card s-card"   >
-                                    <img src="https://source.unsplash.com/collection/190727/1600x900" class="card-img-top" alt="..." />
-                                    <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-
-                                    </div>
-                                </div>
-                                <div class="card s-card"   >
-                                    <img src="https://source.unsplash.com/collection/190727/1600x900" class="card-img-top" alt="..." />
-                                    <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
+                                <div className="card s-card"   >
+                                    <img src="https://source.unsplash.com/collection/190727/1600x900" className="card-img-top" alt="..." />
+                                    <div className="card-body">
+                                        <h5 className="card-title">Card title</h5>
 
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
+                        <div className="carousel-item">
+                            <div className="card-wrapper container-sm d-flex  justify-content-around">
+                                <div className="card s-card "   >
+                                    <img src="https://source.unsplash.com/collection/190727/1600x900" className="card-img-top" alt="..." />
+                                    <div className="card-body">
+                                        <h5 className="card-title">Card title</h5>
+
+                                    </div>
+                                </div>
+                                <div className="card s-card"   >
+                                    <img src="https://source.unsplash.com/collection/190727/1600x900" className="card-img-top" alt="..." />
+                                    <div className="card-body">
+                                        <h5 className="card-title">Card title</h5>
+
+                                    </div>
+                                </div>
+                                <div className="card s-card"   >
+                                    <img src="https://source.unsplash.com/collection/190727/1600x900" className="card-img-top" alt="..." />
+                                    <div className="card-body">
+                                        <h5 className="card-title">Card title</h5>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                            <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span className="visually-hidden">Previous</span>
                         </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
+                        <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                            <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span className="visually-hidden">Next</span>
                         </button>
                     </div>
                 </div> */}
@@ -549,10 +549,10 @@ export default function Home() {
                         }
 
                     >
-                        <div > <div class="card s-card "   >
-                            <img src="https://source.unsplash.com/collection/190727/1600x900" class="card-img-top" alt="..." />
-                            <div class="card-body">
-                                <h5 class="card-title">Heading</h5>
+                        <div > <div className="card s-card "   >
+                            <img src="https://source.unsplash.com/collection/190727/1600x900" className="card-img-top" alt="..." />
+                            <div className="card-body">
+                                <h5 className="card-title">Heading</h5>
                                 <p className="green">abc | Def</p>
                                 <h4>Rs. ####</h4>
 
@@ -560,10 +560,10 @@ export default function Home() {
                             </div>
                             <a className='card-button'>ADD TO CART</a>
                         </div></div>
-                        <div > <div class="card s-card "   >
-                            <img src="https://source.unsplash.com/collection/190727/1600x900" class="card-img-top" alt="..." />
-                            <div class="card-body">
-                                <h5 class="card-title">Heading</h5>
+                        <div > <div className="card s-card "   >
+                            <img src="https://source.unsplash.com/collection/190727/1600x900" className="card-img-top" alt="..." />
+                            <div className="card-body">
+                                <h5 className="card-title">Heading</h5>
                                 <p className="green">abc | Def</p>
                                 <h4>Rs. ####</h4>
 
@@ -571,10 +571,10 @@ export default function Home() {
                             </div>
                             <a className='card-button'>ADD TO CART</a>
                         </div></div>
-                        <div > <div class="card s-card "   >
-                            <img src="https://source.unsplash.com/collection/190727/1600x900" class="card-img-top" alt="..." />
-                            <div class="card-body">
-                                <h5 class="card-title">Heading</h5>
+                        <div > <div className="card s-card "   >
+                            <img src="https://source.unsplash.com/collection/190727/1600x900" className="card-img-top" alt="..." />
+                            <div className="card-body">
+                                <h5 className="card-title">Heading</h5>
                                 <p className="green">abc | Def</p>
                                 <h4>Rs. ####</h4>
 
@@ -582,10 +582,10 @@ export default function Home() {
                             </div>
                             <a className='card-button'>ADD TO CART</a>
                         </div></div>
-                        <div > <div class="card s-card "   >
-                            <img src="https://source.unsplash.com/collection/190727/1600x900" class="card-img-top" alt="..." />
-                            <div class="card-body">
-                                <h5 class="card-title">Heading</h5>
+                        <div > <div className="card s-card "   >
+                            <img src="https://source.unsplash.com/collection/190727/1600x900" className="card-img-top" alt="..." />
+                            <div className="card-body">
+                                <h5 className="card-title">Heading</h5>
                                 <p className="green">abc | Def</p>
                                 <h4>Rs. ####</h4>
 
