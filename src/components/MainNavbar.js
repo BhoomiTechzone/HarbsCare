@@ -17,8 +17,8 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 
 const MainNavbar = () => {
   return (
-  <div>
-    {/* <Navbar collapseOnSelect expand="lg" className="bg-body">
+    <div>
+      {/* <Navbar collapseOnSelect expand="lg" className="bg-body">
       <Container>
         <Navbar.Brand href="#">
           <img src={logo} alt="" height="60px" />
@@ -61,21 +61,18 @@ const MainNavbar = () => {
 
       </Container>
     </Navbar> */}
-    <Navbar collapseOnSelect expand="lg" className="bg-body">
-      <Container>
-        <Navbar.Brand href="#home"><img src={logo} alt="" height="60px" /></Navbar.Brand>
-        {/* <Navbar.Toggle aria-controls="responsive-navbar-nav" /> */}
-        {/* <Navbar.Collapse id="responsive-navbar-nav"> */}
-        <InputGroup className="mb-3 mt-3">
-            <div className="svg">
-
-            </div>
+      <Navbar collapseOnSelect expand="lg" className="bg-body">
+        <Container>
+          <Navbar.Brand href="#home"><img src={logo} alt="" height="60px" /></Navbar.Brand>
+          {/* <Navbar.Toggle aria-controls="responsive-navbar-nav" /> */}
+          {/* <Navbar.Collapse id="responsive-navbar-nav"> */}
+          <InputGroup className="mb-3 mt-3">
             <Form.Control
               placeholder="Recipient's username"
               aria-label="Recipient's username"
               aria-describedby="basic-addon2"
-              
-            / >
+
+            />
             <Button variant="success" id="button-addon2">
               <SearchIcon />
               Button
@@ -83,22 +80,22 @@ const MainNavbar = () => {
           </InputGroup>
           <Nav className="me-auto">
             <div className="hide">
-            <Nav.Link href="#features"><img src={exo} alt="" /></Nav.Link>
+              <Nav.Link href="#features"><img src={exo} alt="" /></Nav.Link>
             </div>
           </Nav>
           <Nav className=''>
-          <div className="hide">
-            <Nav.Link href=""><ShoppingCartIcon /><span>Cart</span></Nav.Link>
+            <div className="hide">
+              <Nav.Link href=""><ShoppingCartIcon /><span>Cart</span></Nav.Link>
             </div>
             <div className="hide">
-            <Nav.Link eventKey={2} href="#memes">
-            <PersonIcon /><span>Login</span>
-            </Nav.Link>
+              <Nav.Link eventKey={2} href="#memes">
+                <PersonIcon /><span>Login</span>
+              </Nav.Link>
             </div>
           </Nav>
-        {/* </Navbar.Collapse> */}
-      </Container>
-    </Navbar>
+          {/* </Navbar.Collapse> */}
+        </Container>
+      </Navbar>
 
     </div>
   )
