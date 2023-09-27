@@ -3,6 +3,7 @@ import { useState } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import $ from 'jquery';
 import simg from "../Images/OMG_Website_without_CTA_1920X512.gif"
+import carousel1 from "../Images/CAROUSEL/Care with harbs.png"
 import ssf1 from "../Images/dermatology-tested-100x100.webp"
 import ssf2 from "../Images/msafe-100x100.jpg"
 import ssf3 from "../Images/fda-100x100.jpg"
@@ -62,7 +63,7 @@ export default function Home() {
         <div>
             <Carousel activeIndex={index} onSelect={handleSelect}>
                 <Carousel.Item>
-                    <img src={simg} text="First slide" height="400px" width="100%"/>
+                    <img src={carousel1} text="First slide" height="400px" width="100%"/>
                     <Carousel.Caption>
                         {/* <h3>First slide label</h3>
           <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
@@ -98,96 +99,7 @@ export default function Home() {
                 </div>
                 <div className="col-lg-9 ">
 
-                    {/* <div id="carouselExampleControls" className="carousel carousel-dark slide" data-bs-ride="carousel">
-                    <div className="carousel-inner">
-                        <div className="carousel-item active">
-                            <div className="card-wrapper container-sm d-flex  justify-content-around">
-                                <div className="card s-card "   >
-                                    <img src="https://source.unsplash.com/collection/190727/1600x900" className="card-img-top" alt="..." />
-                                    <div className="card-body">
-                                        <h5 className="card-title">Heading</h5>
-                                        <p className="green">abc | Def</p>
-                                        <h4>Rs. ####</h4>
-
-
-                                    </div>
-                                    <a className='card-button'>ADD TO CART</a>
-                                </div>
-                                <div className="card s-card "   >
-                                    <img src="https://source.unsplash.com/collection/190727/1600x900" className="card-img-top" alt="..." />
-                                    <div className="card-body">
-                                        <h5 className="card-title">Card title</h5>
-
-                                    </div>
-                                </div>
-                                <div className="card s-card "   >
-                                    <img src="https://source.unsplash.com/collection/190727/1600x900" className="card-img-top" alt="..." />
-                                    <div className="card-body">
-                                        <h5 className="card-title">Card title</h5>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="carousel-item">
-                            <div className="card-wrapper container-sm d-flex   justify-content-around">
-                                <div className="card s-card  "   >
-                                    <img src="https://source.unsplash.com/collection/190727/1600x900" className="card-img-top" alt="..." />
-                                    <div className="card-body">
-                                        <h5 className="card-title">Card title</h5>
-
-                                    </div>
-                                </div><div className="card s-card"   >
-                                    <img src="https://source.unsplash.com/collection/190727/1600x900" className="card-img-top" alt="..." />
-                                    <div className="card-body">
-                                        <h5 className="card-title">Card title</h5>
-
-                                    </div>
-                                </div>
-                                <div className="card s-card"   >
-                                    <img src="https://source.unsplash.com/collection/190727/1600x900" className="card-img-top" alt="..." />
-                                    <div className="card-body">
-                                        <h5 className="card-title">Card title</h5>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="carousel-item">
-                            <div className="card-wrapper container-sm d-flex  justify-content-around">
-                                <div className="card s-card "   >
-                                    <img src="https://source.unsplash.com/collection/190727/1600x900" className="card-img-top" alt="..." />
-                                    <div className="card-body">
-                                        <h5 className="card-title">Card title</h5>
-
-                                    </div>
-                                </div>
-                                <div className="card s-card"   >
-                                    <img src="https://source.unsplash.com/collection/190727/1600x900" className="card-img-top" alt="..." />
-                                    <div className="card-body">
-                                        <h5 className="card-title">Card title</h5>
-
-                                    </div>
-                                </div>
-                                <div className="card s-card"   >
-                                    <img src="https://source.unsplash.com/collection/190727/1600x900" className="card-img-top" alt="..." />
-                                    <div className="card-body">
-                                        <h5 className="card-title">Card title</h5>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                            <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span className="visually-hidden">Previous</span>
-                        </button>
-                        <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                            <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span className="visually-hidden">Next</span>
-                        </button>
-                    </div>
-                </div> */}
+                    
                     <OwlCarousel
                         className="owl-theme"
                         loop
@@ -268,96 +180,7 @@ export default function Home() {
                 </div>
                 <div className="col-lg-9 ">
 
-                    {/* <div id="carouselExampleControls" className="carousel carousel-dark slide" data-bs-ride="carousel">
-                    <div className="carousel-inner">
-                        <div className="carousel-item active">
-                            <div className="card-wrapper container-sm d-flex  justify-content-around">
-                                <div className="card s-card "   >
-                                    <img src="https://source.unsplash.com/collection/190727/1600x900" className="card-img-top" alt="..." />
-                                    <div className="card-body">
-                                        <h5 className="card-title">Heading</h5>
-                                        <p className="green">abc | Def</p>
-                                        <h4>Rs. ####</h4>
-
-
-                                    </div>
-                                    <a className='card-button'>ADD TO CART</a>
-                                </div>
-                                <div className="card s-card "   >
-                                    <img src="https://source.unsplash.com/collection/190727/1600x900" className="card-img-top" alt="..." />
-                                    <div className="card-body">
-                                        <h5 className="card-title">Card title</h5>
-
-                                    </div>
-                                </div>
-                                <div className="card s-card "   >
-                                    <img src="https://source.unsplash.com/collection/190727/1600x900" className="card-img-top" alt="..." />
-                                    <div className="card-body">
-                                        <h5 className="card-title">Card title</h5>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="carousel-item">
-                            <div className="card-wrapper container-sm d-flex   justify-content-around">
-                                <div className="card s-card  "   >
-                                    <img src="https://source.unsplash.com/collection/190727/1600x900" className="card-img-top" alt="..." />
-                                    <div className="card-body">
-                                        <h5 className="card-title">Card title</h5>
-
-                                    </div>
-                                </div><div className="card s-card"   >
-                                    <img src="https://source.unsplash.com/collection/190727/1600x900" className="card-img-top" alt="..." />
-                                    <div className="card-body">
-                                        <h5 className="card-title">Card title</h5>
-
-                                    </div>
-                                </div>
-                                <div className="card s-card"   >
-                                    <img src="https://source.unsplash.com/collection/190727/1600x900" className="card-img-top" alt="..." />
-                                    <div className="card-body">
-                                        <h5 className="card-title">Card title</h5>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="carousel-item">
-                            <div className="card-wrapper container-sm d-flex  justify-content-around">
-                                <div className="card s-card "   >
-                                    <img src="https://source.unsplash.com/collection/190727/1600x900" className="card-img-top" alt="..." />
-                                    <div className="card-body">
-                                        <h5 className="card-title">Card title</h5>
-
-                                    </div>
-                                </div>
-                                <div className="card s-card"   >
-                                    <img src="https://source.unsplash.com/collection/190727/1600x900" className="card-img-top" alt="..." />
-                                    <div className="card-body">
-                                        <h5 className="card-title">Card title</h5>
-
-                                    </div>
-                                </div>
-                                <div className="card s-card"   >
-                                    <img src="https://source.unsplash.com/collection/190727/1600x900" className="card-img-top" alt="..." />
-                                    <div className="card-body">
-                                        <h5 className="card-title">Card title</h5>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                            <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span className="visually-hidden">Previous</span>
-                        </button>
-                        <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                            <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span className="visually-hidden">Next</span>
-                        </button>
-                    </div>
-                </div> */}
+                    
                     <OwlCarousel
                         className="owl-theme"
                         loop
@@ -438,96 +261,7 @@ export default function Home() {
                 </div>
                 <div className="col-lg-9 ">
 
-                    {/* <div id="carouselExampleControls" className="carousel carousel-dark slide" data-bs-ride="carousel">
-                    <div className="carousel-inner">
-                        <div className="carousel-item active">
-                            <div className="card-wrapper container-sm d-flex  justify-content-around">
-                                <div className="card s-card "   >
-                                    <img src="https://source.unsplash.com/collection/190727/1600x900" className="card-img-top" alt="..." />
-                                    <div className="card-body">
-                                        <h5 className="card-title">Heading</h5>
-                                        <p className="green">abc | Def</p>
-                                        <h4>Rs. ####</h4>
-
-
-                                    </div>
-                                    <a className='card-button'>ADD TO CART</a>
-                                </div>
-                                <div className="card s-card "   >
-                                    <img src="https://source.unsplash.com/collection/190727/1600x900" className="card-img-top" alt="..." />
-                                    <div className="card-body">
-                                        <h5 className="card-title">Card title</h5>
-
-                                    </div>
-                                </div>
-                                <div className="card s-card "   >
-                                    <img src="https://source.unsplash.com/collection/190727/1600x900" className="card-img-top" alt="..." />
-                                    <div className="card-body">
-                                        <h5 className="card-title">Card title</h5>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="carousel-item">
-                            <div className="card-wrapper container-sm d-flex   justify-content-around">
-                                <div className="card s-card  "   >
-                                    <img src="https://source.unsplash.com/collection/190727/1600x900" className="card-img-top" alt="..." />
-                                    <div className="card-body">
-                                        <h5 className="card-title">Card title</h5>
-
-                                    </div>
-                                </div><div className="card s-card"   >
-                                    <img src="https://source.unsplash.com/collection/190727/1600x900" className="card-img-top" alt="..." />
-                                    <div className="card-body">
-                                        <h5 className="card-title">Card title</h5>
-
-                                    </div>
-                                </div>
-                                <div className="card s-card"   >
-                                    <img src="https://source.unsplash.com/collection/190727/1600x900" className="card-img-top" alt="..." />
-                                    <div className="card-body">
-                                        <h5 className="card-title">Card title</h5>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="carousel-item">
-                            <div className="card-wrapper container-sm d-flex  justify-content-around">
-                                <div className="card s-card "   >
-                                    <img src="https://source.unsplash.com/collection/190727/1600x900" className="card-img-top" alt="..." />
-                                    <div className="card-body">
-                                        <h5 className="card-title">Card title</h5>
-
-                                    </div>
-                                </div>
-                                <div className="card s-card"   >
-                                    <img src="https://source.unsplash.com/collection/190727/1600x900" className="card-img-top" alt="..." />
-                                    <div className="card-body">
-                                        <h5 className="card-title">Card title</h5>
-
-                                    </div>
-                                </div>
-                                <div className="card s-card"   >
-                                    <img src="https://source.unsplash.com/collection/190727/1600x900" className="card-img-top" alt="..." />
-                                    <div className="card-body">
-                                        <h5 className="card-title">Card title</h5>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                            <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span className="visually-hidden">Previous</span>
-                        </button>
-                        <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                            <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span className="visually-hidden">Next</span>
-                        </button>
-                    </div>
-                </div> */}
+                    
                     <OwlCarousel
                         className="owl-theme"
                         loop

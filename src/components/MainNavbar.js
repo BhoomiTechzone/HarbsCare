@@ -85,11 +85,11 @@ const MainNavbar = () => {
           </Nav>
           <Nav className=''>
             <div className="hide">
-              <Nav.Link href=""><ShoppingCartIcon /><span>Cart</span></Nav.Link>
+              <Nav.Link href=""><ShoppingCartIcon sx={{color:"#198754"}} /><span>Cart</span></Nav.Link>
             </div>
             <div className="hide">
               <Nav.Link eventKey={2} href="#memes">
-                <PersonIcon /><span>Login</span>
+                <PersonIcon sx={{color:"#198754"}}  /><span>Login</span>
               </Nav.Link>
             </div>
           </Nav>
