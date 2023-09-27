@@ -27,30 +27,30 @@
     padding-top: 20px;
   }
   .card-button{
-    background-color: rgb(59, 131, 232);
+    background-color: #198754;
     color: white;
     text-decoration: none;
     text-align: center;
     padding: 10px;
-    border: 2px solid rgb(59, 131, 232);
+    border: 2px solid #198754;
     border-radius: 1px;
   }
   .card-button:hover{
     background-color: white;
-    color:rgb(59, 131, 232) ;
+    color:#198754 ;
   }
   .card-button-opp{
     background-color: white;
-    color:rgb(59, 131, 232) ;
+    color:#198754 ;
     margin-left: 20px;
     text-decoration: none;
     text-align: center;
     padding: 10px;
-    border: 2px solid rgb(59, 131, 232);
+    border: 2px solid #198754;
     border-radius: 1px;
   }
   .card-button-opp:hover{
-    background-color: rgb(59, 131, 232);
+    background-color: #198754;
     color: white;
   }
   
@@ -75,7 +75,13 @@
     width: 100%;
   }
 }
+.l-box{
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center; 
 
+}
 
   /* testimonial */
   
