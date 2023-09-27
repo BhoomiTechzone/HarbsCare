@@ -68,12 +68,12 @@ const MainNavbar = () => {
           {/* <Navbar.Collapse id="responsive-navbar-nav"> */}
           <InputGroup className="mb-3 mt-3">
             <Form.Control
-              placeholder="Recipient's username"
+              placeholder="Search"
               aria-label="Recipient's username"
               aria-describedby="basic-addon2"
 
             />
-            <Button variant="success" id="button-addon2">
+            <Button style={{backgroundColor:"#2B6111"}}  variant="success" id="button-addon2">
               <SearchIcon />
               Button
             </Button>

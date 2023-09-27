@@ -138,7 +138,7 @@ const SubNavbar = () => {
               <div style={{ width: "0.5px", backgroundColor: "gray" }}></div>
               <Box>
                 <Typography color={"#58A321"} sx={{ fontSize: 16 }} component="div">
-                  BEAUTY
+                  Medicine
                 </Typography>
                 <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
                   Word Day
