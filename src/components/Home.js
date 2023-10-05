@@ -7,6 +7,9 @@ import carousel1 from "../Images/CAROUSEL/Care with harbs.png"
 import ssf1 from "../Images/dermatology-tested-100x100.webp"
 import ssf2 from "../Images/msafe-100x100.jpg"
 import ssf3 from "../Images/fda-100x100.jpg"
+import p1 from "../Images/products/Kaagaz_20230925_135056085102-1__1_-removebg-preview.png"
+import p2 from "../Images/products/Kaagaz_20230925_135056085102-2__1_-removebg-preview.png"
+import p3 from "../Images/products/Kaagaz_20230925_135056085102-3__1_-removebg-preview.png"
 import './Home.css'
 import "slick-carousel/slick/slick.css";
 
@@ -122,7 +125,7 @@ export default function Home() {
 
                     >
                         <div > <div className="card s-card "   >
-                            <img src="https://source.unsplash.com/collection/190727/1600x900" className="card-img-top" alt="..." />
+                            <img src={p1} className="card-img-top" alt="..." />
                             <div className="card-body">
                                 <h5 className="card-title">Heading</h5>
                                 <p className="green">abc | Def</p>
@@ -133,7 +136,7 @@ export default function Home() {
                             <a className='card-button'>ADD TO CART</a>
                         </div></div>
                         <div > <div className="card s-card "   >
-                            <img src="https://source.unsplash.com/collection/190727/1600x900" className="card-img-top" alt="..." />
+                            <img src={p2} className="card-img-top" alt="..." />
                             <div className="card-body">
                                 <h5 className="card-title">Heading</h5>
                                 <p className="green">abc | Def</p>
@@ -144,7 +147,7 @@ export default function Home() {
                             <a className='card-button'>ADD TO CART</a>
                         </div></div>
                         <div > <div className="card s-card "   >
-                            <img src="https://source.unsplash.com/collection/190727/1600x900" className="card-img-top" alt="..." />
+                            <img src={p3} className="card-img-top" alt="..." />
                             <div className="card-body">
                                 <h5 className="card-title">Heading</h5>
                                 <p className="green">abc | Def</p>
