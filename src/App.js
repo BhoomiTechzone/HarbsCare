@@ -10,6 +10,7 @@ import About from './Page/About';
 import Footer from './components/Footer';
 import Contact from './Page/Contact';
 import Medicine from './Page/Medicine';
+import Women from './Page/Women';
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
         <Route path='/about' element={<About />} />
         <Route path='/contact' element={<Contact />} />
         <Route path='/medicine' element={<Medicine />} />
+        <Route path='/women' element={<Women/>} />
       </Routes>
       <ScrollToTop smooth />
       <Footer />

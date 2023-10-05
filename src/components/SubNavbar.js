@@ -132,7 +132,7 @@ const SubNavbar = () => {
                   Men
                 </Typography>
                 <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
-                  Women
+                <a href='/women'> Women</a>
                 </Typography>
               </Box>
               <div style={{ width: "0.5px", backgroundColor: "gray" }}></div>
