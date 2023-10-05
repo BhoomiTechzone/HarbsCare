@@ -129,10 +129,10 @@ const SubNavbar = () => {
                   View
                 </Typography>
                 <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
-                  Word Day
+                  Men
                 </Typography>
                 <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
-                  Word Day
+                  Women
                 </Typography>
               </Box>
               <div style={{ width: "0.5px", backgroundColor: "gray" }}></div>
