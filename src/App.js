@@ -29,9 +29,6 @@ function App() {
       <ScrollToTop smooth />
       <Footer />
     </main>
-
-
-
   );
 }
 
