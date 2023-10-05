@@ -6,16 +6,26 @@ import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import PersonIcon from '@mui/icons-material/Person';
-// import NavDropdown from 'react-bootstrap/NavDropdown';
+import { useState } from 'react';
 import InputGroup from 'react-bootstrap/InputGroup';
 import SearchIcon from '@mui/icons-material/Search';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import exo from '../Images/Exclusive Offers.gif';
 import logo from '../Images/logo hc.png'
 import "./Navbar.css";
-import NavDropdown from 'react-bootstrap/NavDropdown';
+import Login from '../Page/Login';
+
+
 
 const MainNavbar = () => {
+
+  const [open, setOpen] = useState(false);
+
+  const openDialog = () => {
+    setOpen(true)
+  }
+
+
   return (
     <div>
       {/* <Navbar collapseOnSelect expand="lg" className="bg-body">
@@ -73,7 +83,7 @@ const MainNavbar = () => {
               aria-describedby="basic-addon2"
 
             />
-            <Button style={{backgroundColor:"#2B6111"}}  variant="success" id="button-addon2">
+            <Button style={{ backgroundColor: "#2B6111" }} variant="success" id="button-addon2">
               <SearchIcon />
               Button
             </Button>
@@ -85,18 +95,19 @@ const MainNavbar = () => {
           </Nav>
           <Nav className=''>
             <div className="hide">
-              <Nav.Link href=""><ShoppingCartIcon sx={{color:"#198754"}} /><span>Cart</span></Nav.Link>
+              <Nav.Link href=""><ShoppingCartIcon sx={{ color: "#198754" }} /><span>Cart</span></Nav.Link>
             </div>
             <div className="hide">
-              <Nav.Link eventKey={2} href="#memes">
-                <PersonIcon sx={{color:"#198754"}}  /><span>Login</span>
+              <Nav.Link eventKey={2} onClick={() => openDialog()}>
+                <PersonIcon sx={{ color: "#198754" }} />
+                <span>Login</span>
               </Nav.Link>
             </div>
           </Nav>
           {/* </Navbar.Collapse> */}
         </Container>
       </Navbar>
-
+      <Login open={open} setOpen={setOpen} />
     </div>
   )
 }

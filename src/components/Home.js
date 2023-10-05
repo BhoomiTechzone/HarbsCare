@@ -20,6 +20,7 @@ import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 
+
 export default function Home() {
     const [index, setIndex] = useState(0);
 
@@ -390,48 +391,9 @@ export default function Home() {
                                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et id nostrum, fugiat voluptates, unde officia quam commodi cumque debitis voluptas adipisci, vel ea? Aliquid e</p>
                             </div>
                         </div>
-
                     </div>
-
                 </div>
             </div>
-            {/* super safe standards end */}
-
-            {/* slick container */}
-            {/* <div className="container slick">
-                <h2> What our Customers Say </h2>
-                <Slider {...settings}>
-                    <div className='slick-div'>
-                        <p>contnet</p>
-                        <h3>1</h3>
-
-
-
-                    </div>
-                    
-                    <div>
-                        <h3>3</h3>
-                    </div>
-                    <div>
-                        <h3>4</h3>
-                    </div>
-                    <div>
-                        <h3>5</h3>
-                    </div>
-                    <div>
-                        <h3>6</h3>
-                    </div>
-                    <div>
-                        <h3>7</h3>
-                    </div>
-                    <div>
-                        <h3>8</h3>
-                    </div>
-                </Slider>
-            </div> */}
-            {/* slick container end */}
-          
-
         </div>
     )
 }
