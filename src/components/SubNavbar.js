@@ -203,7 +203,9 @@ const SubNavbar = () => {
           </Card>
         }
       >
-        <Button sx={{color:'#58A321', marginRight:'10px'}} >BABY</Button>
+        <Link to="/healthproblem">
+        <Button sx={{color:'#58A321', marginRight:'10px'}} >Illness</Button>
+        </Link>
       </HtmlTooltip>
 
       <HtmlTooltip>

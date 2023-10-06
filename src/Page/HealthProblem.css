@@ -1,0 +1,9 @@
+.hp-header img{
+    width:100% !important;
+}
+@media (min-width: 250px) and (max-width:500px) {
+    .card-body{
+      height: auto;
+      /* width: 100%; */
+    }
+  }
