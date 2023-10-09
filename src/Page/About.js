@@ -11,9 +11,9 @@ export default function About() {
                 <iframe height={500} width="90%" src="https://www.youtube.com/embed/BavyVO3wzyk"> </iframe>
                 </div>
                 <div className="about-content1">
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit animi odit tempora perferendis nobis quibusdam, quod voluptatum repudiandae assumenda, nam laborum voluptatibus excepturi fugit at officiis, libero aperiam facere neque.
-                    Non voluptatum saepe exercitationem molestiae dolore asperiores quae cumque beatae earum, nam recusandae debitis sequi repellendus ut dolor. Repudiandae consectetur neque porro ipsum harum sit blanditiis totam amet labore perspiciatis.
-                    Libero laboriosam veritatis, nulla velit doloremque in accusantium quidem. Quaerat mollitia distinctio dignissimos nulla blanditiis adipisci, impedit ad quisquam commodi totam soluta dolore ex iusto, veniam sequi ipsam porro placeat.</p>
+                    <p>We are parents just like you. Our journey began when  were expecting our first child. That’s the time we turned from a bungee jumping, pub hopping, carefree couple to basically a couple of safety wardens. Everything had to be safe, kosher & googled. When the morning sickness became a routine, we were shocked to find that there were no safer alternatives to pills and ended up having to struggle a lot.
+
+After 9 rigorous months, we were finally blessed with our tiny little bundle of joy and just like you and every other parent in the world; we too wanted the best for our cute bambino. So we wore our spyglasses & did all the possible research available. Whoa, we were shocked to see how most baby products, be it lotion or shampoo contained toxins which have proven to be harmful to the little ones. We were worried sick and it wasn’t just our baby we were worried about but also for all the little ones we knew in our friend circle. That’s when we decided to do something about it & create products which were completely safe & certified toxin free. A brand, by a parent, for the parent. A brand which develops products from world-class research and attempts to solve every little problem that we as parents face. With the aim of making products which are mum-baby friendly, toxin-free, meet stringent international standards & are basically ultra awesome.</p>
                 </div>
             </div>
             
@@ -24,9 +24,7 @@ export default function About() {
       <div className="container-fluid about2">
       <div className="about-content2">
         <h2>What We Want to Acheive</h2>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis maiores quas a eius animi! Assumenda modi adipisci asperiores molestiae maiores quisquam quibusdam quod, iure in vero pariatur blanditiis quos reiciendis?
-        Eligendi, eius. Quo itaque atque cupiditate officia ipsum. Repudiandae magnam quisquam, quibusdam dignissimos reprehenderit quasi repellendus quam doloremque illo, neque, accusantium architecto porro placeat odit tempore quos voluptas voluptates animi.
-        Tenetur natus, nihil magnam corporis perspiciatis nostrum dolor quia accusamus sint repellat maiores, quos consequatur omnis architecto impedit? Aspernatur reiciendis alias iure laborum nemo adipisci? Veritatis inventore dolores laudantium eos?</p>
+        <p>We aim to build a brand which is your friend, every parent’s friend. A friend who understands you, knows your issues and tries hard to resolve them, well most of them. A brand which every parent like you and me can trust, a brand which intends to make lives of mums & expectant mums better and beautiful. A brand which welcomes all our babies to a healthy and a safe world. We aspire to take care of every parents & baby’s well-being from head to toe with safe, toxin-free, international standard products which you can choose without having to think twice. Well, it’s a lot like love, Awwww.</p>
                 </div>
                
       </div>
@@ -35,23 +33,19 @@ export default function About() {
                   <div className="row">
                     <div className="col-lg-6 about-content31">
                       <h3>Safety</h3>
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ex neque, cum animi obcaecati magnam adipisci nobis placeat quos possimus illum fuga consequuntur totam, voluptates minus unde, temporibus ad corrupti.
-                      Magni, alias sequi. Eum fugit a deleniti delectus rem asperiores aliquam nulla ducimus cum consequatur iusto facere ipsa ipsum dolores quod hic quasi tempore, esse iste. Possimus magnam modi numquam.</p>
+                      <p>Asia’s 1st Brand with MADE SAFE™ Certified Products (Oh Yeah!!). We make sure, our products go through all the required tests and meet the safety standards that you as parent expect. We have a stringent set of super safe standards which you can read about in detail here.</p>
                     </div>
                     <div className="col-lg-6 about-content31">
                       <h3>Mum Empowerment</h3>
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ex neque, cum animi obcaecati magnam adipisci nobis placeat quos possimus illum fuga consequuntur totam, voluptates minus unde, temporibus ad corrupti.
-                      Magni, alias sequi. Eum fugit a deleniti delectus rem asperiores aliquam nulla ducimus cum consequatur iusto facere ipsa ipsum dolores quod hic quasi tempore, esse iste. Possimus magnam modi numquam.</p>
+                      <p>Nobody understands a baby, like a mom does, even if that is just with her intuition. We are continuously working with a panel of moms, who give genuine reviews of our products, which we further use on its improvisation & for creating new solutions. All the products are by the moms, for the moms, and through the moms. Would you like to review our products? Please get in touch</p>
                     </div>
                     <div className="col-lg-6 about-content31">
                       <h3>Honesty</h3>
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ex neque, cum animi obcaecati magnam adipisci nobis placeat quos possimus illum fuga consequuntur totam, voluptates minus unde, temporibus ad corrupti.
-                      Magni, alias sequi. Eum fugit a deleniti delectus rem asperiores aliquam nulla ducimus cum consequatur iusto facere ipsa ipsum dolores quod hic quasi tempore, esse iste. Possimus magnam modi numquam.</p>
+                      <p>We realize how important it is for a parent to know what they are feeding/ using on their baby. At mamaearth, products evolve with an honest and transparent system. What we wished as a parent for ourselves and our little one is what we promise to deliver. You can read about every ingredient that we add to our products and why in our ingredients section under products.</p>
                     </div>
                     <div className="col-lg-6 about-content31">
                       <h3>Best Of Us</h3>
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ex neque, cum animi obcaecati magnam adipisci nobis placeat quos possimus illum fuga consequuntur totam, voluptates minus unde, temporibus ad corrupti.
-                      Magni, alias sequi. Eum fugit a deleniti delectus rem asperiores aliquam nulla ducimus cum consequatur iusto facere ipsa ipsum dolores quod hic quasi tempore, esse iste. Possimus magnam modi numquam.</p>
+                      <p>We believe in delivering products which are gentle as well as hardworking. In this attempt, we make sure we use the best available ingredients (natural, plant-based or manmade) which are both certified safe as well as efficacious in getting the job done. We buy them from the best sources around the world which are ISO, GMP & Non-GMO compliant. A Baby’s well-being & health is our top priority.</p>
                     </div>
                   </div>
 

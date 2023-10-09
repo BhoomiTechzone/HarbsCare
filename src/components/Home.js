@@ -4,6 +4,8 @@ import Carousel from 'react-bootstrap/Carousel';
 import $ from 'jquery';
 import simg from "../Images/OMG_Website_without_CTA_1920X512.gif"
 import carousel1 from "../Images/CAROUSEL/Care with harbs.png"
+import carousel2 from "../Images/CAROUSEL/ayurveda-transformed.png"
+import carousel3 from "../Images/CAROUSEL/stock-photo-herbal-medicine-selection-with-fresh-and-dried-herbs-and-spices-forming-an-abstract-background-on-385252402-transformed (3).jpeg"
 import ssf1 from "../Images/dermatology-tested-100x100.webp"
 import ssf2 from "../Images/msafe-100x100.jpg"
 import ssf3 from "../Images/fda-100x100.jpg"
@@ -74,14 +76,14 @@ export default function Home() {
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
-                    <img src={simg} text="Second slide" height="400px" width="100%"/>
+                    <img src={carousel2} text="Second slide" height="400px" width="100%"/>
                     <Carousel.Caption>
                         {/* <h3>Second slide label</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> */}
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
-                    <img src={simg} text="Third slide" height="400px" width="100%"/>
+                    <img src={carousel3} text="Third slide" height="400px" width="100%"/>
                     <Carousel.Caption>
                         {/* <h3>Third slide label</h3>
           <p>
@@ -96,7 +98,7 @@ export default function Home() {
                 <div className="col-lg-3">
                     <div className="l-box">
                         <h2>Best Sellers</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque possimus adipisci similique, officia sed, saepe, sequi animi delectus tempora dignissimos at exercitationem quam quos ratione distinctio? Beatae temporibus ex molestias.</p>
+                        <p>Explore best-selling safe, natural, and 100% toxin-free baby and beauty products from Mamaearth. Get amazing deals and start your toxin-free skin, hair, and baby care journey.</p>
                         <a className='card-button'>ADD TO CART</a>
                     </div>
 
@@ -177,7 +179,7 @@ export default function Home() {
                 <div className="col-lg-3">
                     <div className="l-box">
                         <h2>Hair Care</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque possimus adipisci similique, officia sed, saepe, sequi animi delectus tempora dignissimos at exercitationem quam quos ratione distinctio? Beatae temporibus ex molestias.</p>
+                        <p>Explore 100% toxin-free and safe Hair products, formulated with the goodness of natural ingredients and no harmful chemicals. </p>
                         <a className='card-button'>ADD TO CART</a>
                     </div>
 
@@ -258,7 +260,7 @@ export default function Home() {
                 <div className="col-lg-3">
                     <div className="l-box">
                         <h2>Beauty</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque possimus adipisci similique, officia sed, saepe, sequi animi delectus tempora dignissimos at exercitationem quam quos ratione distinctio? Beatae temporibus ex molestias.</p>
+                        <p>Color with care with our all-new colorcare range that’s 100% toxin-free and formulated with the goodness of natural ingredients. Check out our newly launched products & bring home your new favorites.</p>
                         <a className='card-button'>ADD TO CART</a>
                     </div>
 
@@ -343,9 +345,8 @@ export default function Home() {
                     </div>
                     <div className="col-lg-6">
                         <div className="yt-sec-content">
-                            <h2>Heading</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam itaque sed possimus est quaerat ea nisi ipsum. Distinctio, vero. Explicabo laborum officiis iure ab dolor suscipit sint tenetur, dolores modi?
-                                Nobis dolorum, iusto illum eos natus minus possimus delectus nostrum voluptatem eius obcaecati sint! Illum, pariatur. Aut alias eveniet eaque blanditiis corporis odit, quasi magni! Ullam provident perferendis nihil tenetur.</p>
+                            <h2>Our Goodness Promise</h2>
+                            <p> we live to spread a little love and goodness every day. We believe that goodness isn’t a superpower, nor a special gift, it’s inside all of us and it shows in the little choices we make. Our mission is to bring you the best of nature through our purest and most nurturing products that are made without any toxins or harmful chemicals. For us goodness also means being good to the earth. Which is why we recycle more plastic than we use and we're PETA Certified - which means we never test on animals. This is our #GoodnessInside.</p>
                             <a className='card-button'>SHOP NOW</a>
                             <a className='card-button-opp'>OUR PLEDGES</a>
                         </div>
@@ -364,7 +365,7 @@ export default function Home() {
                             </div>
                             <div className="col-lg-8 ssf-content">
                                 <h4>Dermatologically Tested</h4>
-                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et id nostrum, fugiat voluptates, unde officia quam commodi cumque debitis voluptas adipisci, vel ea? Aliquid e</p>
+                                <p>we ensure that each product is tested clinically on the sensitive human skin to ensure that it is not allergic</p>
                             </div>
                         </div>
 
@@ -376,7 +377,7 @@ export default function Home() {
                             </div>
                             <div className="col-lg-8 ssf-content">
                                 <h4>Made Safe Certified</h4>
-                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et id nostrum, fugiat voluptates, unde officia quam commodi cumque debitis voluptas adipisci, vel ea? Aliquid e</p>
+                                <p>it means that a product is literally made with safe ingredients.</p>
                             </div>
                         </div>
 
@@ -388,7 +389,7 @@ export default function Home() {
                             </div>
                             <div className="col-lg-8 ssf-content">
                                 <h4>FDA Approved</h4>
-                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et id nostrum, fugiat voluptates, unde officia quam commodi cumque debitis voluptas adipisci, vel ea? Aliquid e</p>
+                                <p>FDA Approved means that we are 100% safe to be used for babies as well as adults</p>
                             </div>
                         </div>
                     </div>

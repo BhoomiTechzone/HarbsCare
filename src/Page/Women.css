@@ -4,6 +4,12 @@
     background: url("/src/Images/women/Untitled design (5).png");
     background-size: cover;
 }
+.ill1-header{
+    /* margin-top: 88px; */
+    height: 400px;
+    background: url("/src/Images/men.png");
+    background-size: cover;
+}
 .ill-header .container{
     color: white;
     /* padding-top: 120px; */

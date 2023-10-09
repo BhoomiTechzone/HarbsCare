@@ -17,27 +17,21 @@ const Contact = () => {
         title: "FAQ ",
         rows: [
             {
-                title: "Lorem ipsum dolor sit amet,",
-                content: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed tempor sem. Aenean vel turpis feugiat,
-                  ultricies metus at, consequat velit. Curabitur est nibh, varius in tellus nec, mattis pulvinar metus.
-                  In maximus cursus lorem, nec laoreet velit eleifend vel. Ut aliquet mauris tortor, sed egestas libero interdum vitae.
-                  Fusce sed commodo purus, at tempus turpis.`,
+                title: "What are herbal products?",
+                content: `Herbal products are natural supplements or remedies made from plants or plant extracts. They can include herbal teas, tinctures, capsules, creams, and more, and are used for various health and wellness purposes.`,
             },
             {
-                title: "Nunc maximus, magna at ultricies elementum",
+                title: "How do I choose the right herbal product for my needs?",
                 content:
-                    "Nunc maximus, magna at ultricies elementum, risus turpis vulputate quam, vitae convallis ex tortor sed dolor.",
+                    "It's essential to do your research and consult with a healthcare professional. They can help you select the right herbal product based on your specific health goals and any potential interactions with other medications you may be taking.",
             },
             {
-                title: "Curabitur laoreet, mauris vel blandit fringilla",
-                content: `Curabitur laoreet, mauris vel blandit fringilla, leo elit rhoncus nunc, ac sagittis leo elit vel lorem.
-                Fusce tempor lacus ut libero posuere viverra. Nunc velit dolor, tincidunt at varius vel, laoreet vel quam.
-                Sed dolor urna, lobortis in arcu auctor, tincidunt mattis ante. Vivamus venenatis ultricies nibh in volutpat.
-                Cras eu metus quis leo vestibulum feugiat nec sagittis lacus.Mauris vulputate arcu sed massa euismod dignissim. `,
+                title: "What is the difference between herbal products and pharmaceutical drugs?",
+                content: `Herbal products are generally considered natural remedies derived from plants, while pharmaceutical drugs are synthetically produced compounds designed to treat specific medical conditions. Pharmaceuticals typically undergo rigorous testing and clinical trials, whereas herbal products may not undergo the same level of scrutiny.`,
             },
             {
-                title: "What is the package version",
-                content: <p>current version is 1.2.1</p>,
+                title: "How should I store herbal products?",
+                content: <p>Herbal products should be stored according to the instructions on their labels. Typically, they should be kept in a cool, dry place, away from direct sunlight and moisture.</p>,
             },
         ],
     };
@@ -84,7 +78,7 @@ const Contact = () => {
 
                 <div className="section-title contact-heading">
                     <h2><span>Contact</span> Us</h2>
-                    <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</p>
+                    {/* <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</p> */}
                 </div>
                 {/* </div> */}
                 <div className="container-fluid contact-form">
@@ -140,7 +134,7 @@ const Contact = () => {
                                             <CallRoundedIcon sx={{ color: "#58A321", fontSize: '50px' }} />
                                         </div>
                                         <div className="col-lg-9">
-                                            <p> <strong>Phone:</strong>+91-##########
+                                            <p> <strong>Phone:</strong>+91-9616463178
                                             </p>
                                             <p>(monday-saturday ,9 AM- 6PM)</p>
                                         </div>
@@ -153,7 +147,7 @@ const Contact = () => {
                                             <AddLocationRoundedIcon sx={{ color: "#58A321", fontSize: '50px' }} />
                                         </div>
                                         <div className="col-lg-9">
-                                            <p> <strong>Address:</strong>xyz street abc road def pin
+                                            <p> <strong>Address:</strong>A -43 , Sector-63 Noida (201301)
                                             </p>
                                         </div>
                                     </div>
