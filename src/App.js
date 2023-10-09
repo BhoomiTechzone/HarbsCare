@@ -12,6 +12,8 @@ import Contact from './Page/Contact';
 import Medicine from './Page/Medicine';
 import Women from './Page/Women';
 import HealthProblem from './Page/HealthProblem';
+import Men from './Page/Men';
+import Hair from './Page/Hair';
 
 
 function App() {
@@ -29,6 +31,8 @@ function App() {
         <Route path='/medicine' element={<Medicine />} />
         <Route path='/women' element={<Women/>} />
         <Route path='/healthproblem' element={<HealthProblem/>} />
+        <Route path='/men' element={<Men/>} />
+        <Route path='/hair' element={<Hair/>} />
       </Routes>
       <ScrollToTop smooth />
       <Footer />

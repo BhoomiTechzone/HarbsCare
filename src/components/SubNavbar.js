@@ -35,89 +35,91 @@ const SubNavbar = () => {
       </HtmlTooltip>
 
       <HtmlTooltip
-        title={
-          <Card sx={{ minWidth: 375 }}>
-            <CardContent sx={{ display: 'flex', justifyContent: 'space-between', borderTop: '2px solid #58A321' }}>
-              <Box>
-                <Typography sx={{ fontSize: 16 }} component="div">
-                  View
-                </Typography>
-                <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
-                  Word Day
-                </Typography>
-                <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
-                  Word Day
-                </Typography>
-              </Box>
-              <div style={{ width: "0.5px", backgroundColor: "gray" }}></div>
-              <Box>
-                <Typography color={"#58A321"} sx={{ fontSize: 16 }} component="div">
-                  BEAUTY
-                </Typography>
-                <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
-                  Word Day
-                </Typography>
-                <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
-                  Word Day
-                </Typography>
-                <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
-                  Word Day
-                </Typography>
-              </Box>
-              <div style={{ width: "0.5px", height: "30px", backgroundColor: "gray" }}></div>
-              <Box>
-                <Typography sx={{ color: "#58A321", cursor: "pointer" }}>
-                  See All
-                </Typography>
-              </Box>
-            </CardContent>
-          </Card>
-        }
+        // title={
+        //   <Card sx={{ minWidth: 375 }}>
+        //     <CardContent sx={{ display: 'flex', justifyContent: 'space-between', borderTop: '2px solid #58A321' }}>
+        //       <Box>
+        //         <Typography sx={{ fontSize: 16 }} component="div">
+        //           View
+        //         </Typography>
+        //         <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
+        //           Word Day
+        //         </Typography>
+        //         <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
+        //           Word Day
+        //         </Typography>
+        //       </Box>
+        //       <div style={{ width: "0.5px", backgroundColor: "gray" }}></div>
+        //       <Box>
+        //         <Typography color={"#58A321"} sx={{ fontSize: 16 }} component="div">
+        //           BEAUTY
+        //         </Typography>
+        //         <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
+        //           Word Day
+        //         </Typography>
+        //         <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
+        //           Word Day
+        //         </Typography>
+        //         <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
+        //           Word Day
+        //         </Typography>
+        //       </Box>
+        //       <div style={{ width: "0.5px", height: "30px", backgroundColor: "gray" }}></div>
+        //       <Box>
+        //         <Typography sx={{ color: "#58A321", cursor: "pointer" }}>
+        //           See All
+        //         </Typography>
+        //       </Box>
+        //     </CardContent>
+        //   </Card>
+        // }
       >
         <Button sx={{color:'#58A321', marginRight:'10px'}}>BEAUTY</Button>
       </HtmlTooltip>
 
       <HtmlTooltip
-        title={
-          <Card sx={{ minWidth: 375 }}>
-            <CardContent sx={{ display: 'flex', justifyContent: 'space-between', borderTop: '2px solid #58A321' }}>
-              <Box>
-                <Typography sx={{ fontSize: 16 }} component="div">
-                  View
-                </Typography>
-                <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
-                  Word Day
-                </Typography>
-                <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
-                  Word Day
-                </Typography>
-              </Box>
-              <div style={{ width: "0.5px", backgroundColor: "gray" }}></div>
-              <Box>
-                <Typography color={"#58A321"} sx={{ fontSize: 16 }} component="div">
-                  BEAUTY
-                </Typography>
-                <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
-                  Word Day
-                </Typography>
-                <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
-                  Word Day
-                </Typography>
-                <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
-                  Word Day
-                </Typography>
-              </Box>
-              <div style={{ width: "0.5px", height: "30px", backgroundColor: "gray" }}></div>
-              <Box>
-                <Typography sx={{ color: "#58A321", cursor: "pointer" }}>
-                  See All
-                </Typography>
-              </Box>
-            </CardContent>
-          </Card>
-        }
+        // title={
+        //   <Card sx={{ minWidth: 375 }}>
+        //     <CardContent sx={{ display: 'flex', justifyContent: 'space-between', borderTop: '2px solid #58A321' }}>
+        //       <Box>
+        //         <Typography sx={{ fontSize: 16 }} component="div">
+        //           View
+        //         </Typography>
+        //         <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
+        //           Word Day
+        //         </Typography>
+        //         <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
+        //           Word Day
+        //         </Typography>
+        //       </Box>
+        //       <div style={{ width: "0.5px", backgroundColor: "gray" }}></div>
+        //       <Box>
+        //         <Typography color={"#58A321"} sx={{ fontSize: 16 }} component="div">
+        //           BEAUTY
+        //         </Typography>
+        //         <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
+        //           Word Day
+        //         </Typography>
+        //         <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
+        //           Word Day
+        //         </Typography>
+        //         <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
+        //           Word Day
+        //         </Typography>
+        //       </Box>
+        //       <div style={{ width: "0.5px", height: "30px", backgroundColor: "gray" }}></div>
+        //       <Box>
+        //         <Typography sx={{ color: "#58A321", cursor: "pointer" }}>
+        //           See All
+        //         </Typography>
+        //       </Box>
+        //     </CardContent>
+        //   </Card>
+        // }
       >
-        <Button sx={{color:'#58A321', marginRight:'10px'}} >HAIR</Button>
+        <Link to="/hair">
+        <Button sx={{color:'#58A321', marginRight:'10px'}} > HAIR </Button>
+        </Link>
       </HtmlTooltip>
 
       <HtmlTooltip
@@ -254,7 +256,7 @@ const SubNavbar = () => {
           </Card>
         }
       >
-        <Button sx={{color:'#58A321', marginRight:'10px'}} >BLOG</Button>
+        {/* <Button sx={{color:'#58A321', marginRight:'10px'}} >BLOG</Button> */}
       </HtmlTooltip>
 
       <HtmlTooltip>
